@@ -48,9 +48,9 @@ function App() {
             hover: {backgroundColor: '#d1d1d1'},
           },
         },
-        'feedback-icon-positive': {events: {click: () => console.log('positive response')}},
+        'feedback-icon-positive': {events: {click: () => alert('positive response')}},
         'feedback-icon-negative': {
-          events: {click: () => console.log('negative response')},
+          events: {click: () => alert('negative response')},
           styles: {default: {transform: 'rotate(180deg)', marginLeft: '3px'}},
         },
       }}
